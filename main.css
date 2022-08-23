@@ -224,15 +224,24 @@ article{
   background: transparent;
 }
 .aboutusimage{
-  /*
+  
   display: block;
+  position: relative;
 top: 1000px;
 width: 960px;
+height: 2000px;
+bottom: 380px;
 font-family: 'Poppins';
-font-weight: 200;*/
-height:2000px;
+font-weight: 200;
   background-image: url("assets/images/aboutus.gif");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: rgb(150, 93, 19);
+  color: #b8b4b4;
+}
+.aboutustext{
+  position: relative;
+  align-content: center;
+  top: 200px;
+  margin: 20px;
+  line-height: 26px;
 }
